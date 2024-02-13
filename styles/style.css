@@ -81,7 +81,7 @@ body {
     text-align: center;
   }
   details{
-    padding: 15px;
+    margin-bottom: 15px;
   }
   summary {
     cursor:pointer;
@@ -109,6 +109,9 @@ body {
   }
   p{
     text-align: justify;
+  }
+  .contenido{
+    padding: 10px 20px;
   }
   
   blockquote {

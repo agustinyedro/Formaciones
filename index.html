@@ -22,6 +22,7 @@
   </nav>
 </header>
 <div class="main">
+  <div id="logo"></div>
   <div class="container">
     <div class="titulo">
     <h2>Instructorado Hatha Yoga</h2>
@@ -33,11 +34,11 @@
     </details>
     <details class="miDetails">
       <summary>Informacion sobre la formacion</summary>
-      <p>El Instructorado en HATHA YOGA te abre las puertas para poder aprender y enseñar un verdadero arte psicofísico. Dentro del mismo se incluyen los principios de alineación específicos de cada postura (asanas), los secretos del trabajo sobre la respiración y la meditación. No se necesita de un grado particular de flexibilidad, pero sí de que aprendas en tu propio cuerpo las alineaciones que enseñarás a otros, así como también que logres percibir los procesos fisiológicos que se dan con la práctica para luego poder transmitirlos. Si bien las clases son primordialmente prácticas, cada una de ellas se orienta a la comprensión de un tema teórico. Este estudio propuesto en el Instructorado busca que puedas comprender los beneficios y el sentido de la práctica, integrando la anatomía y fisiología, a una concepción holística del ser humano.</p>
+      <p>El Instructorado en <i>HATHA YOGA</i> te abre las puertas para poder aprender y enseñar un verdadero arte psicofísico. <br> Dentro del mismo se incluyen los principios de alineación específicos de cada postura (asanas), los secretos del trabajo sobre la respiración y la meditación. <strong>No se necesita de un grado particular de flexibilidad</strong>, pero sí de que aprendas en tu propio cuerpo las alineaciones que enseñarás a otros, así como también que logres percibir los procesos fisiológicos que se dan con la práctica para luego poder transmitirlos. <br> Si bien las clases son primordialmente prácticas, cada una de ellas se orienta a la comprensión de un tema teórico. Este estudio propuesto en el Instructorado busca que puedas comprender los beneficios y el sentido de la práctica, integrando la anatomía y fisiología, a una concepción holística del ser humano.</p>
     </details>
 
     <details class="miDetails">
-      <summary>TEMARIO</summary>
+      <summary>Temario</summary>
       <ul>
         <li><strong>Introducción al estudio del Yoga:</strong> Asthanga Yoga de Patañjàli, el sendero de los 8 pasos.</li>
         <li><strong>Posturas / Asanas:</strong>
@@ -93,11 +94,11 @@
     </details>
     <details class="miDetails">
       <summary>Lugar</summary>
-      <p>LUGAR: Los tilos 100 barrio calamuchita, Villa Nueva.</p>
+      <p><strong>Lugar:</strong><br> Los tilos 100 barrio calamuchita, Villa Nueva.</p>
     </details>
     <details class="miDetails">
-      <summary>CURSADO</summary>
-      <p>El curasado se realiza de 10 hs. a 17hs un sabado al mes. </br>
+      <summary>Cursado</summary>
+      <p>El curasado se realiza de <i>10 hs. a 17hs</i> <br> un sabado al mes. </br>
         1° Encuentro: Sábado 23 de marzo.</br>
         2° Encuentro: Sábado 27 de abril.</br>
         3° Encuentro: Sábado 25 de mayo.</br>
@@ -114,7 +115,7 @@
       </p>
     </details>
     <details class="miDetails">
-      <summary>INVERSION MONETARIA</summary>
+      <summary>Inversion Monetaria</summary>
       <p>Valor inscripción: $10.000 para reservar tu lugar.</br>
 
         Valor del curso: 10 cuotas mensuales (que deben
@@ -135,16 +136,22 @@
         <p>
           Apuntes de Hatha Yoga en PDF, material de estudio y clases prácticas virtuales.</p>
         <p>No existe ningún costo adicional, conceptos como derecho de examen y certificación están incluidos.
+          <p>Aula Virtual</p>
 
         </p>
       </ul>
     </details>
+
   </div>
 </div> 
 </body>
 <script>
-  document.getQuerySelector('.miDetails').addEventListener('toggle', function() {
+const detalles = document.querySelectorAll('.miDetails');
+
+detalles.forEach(function(detalle) {
+  detalle.addEventListener('toggle', function() {
     this.classList.toggle('abierto', this.open);
   });
+});
 </script>
 </html>

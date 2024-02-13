@@ -109,7 +109,11 @@ body {
   }
   p{
     padding: 15px;
-    text-wrap: pretty;
+    text-align: justify;
   }
   
-  
+  blockquote {
+    font-size: 12px;
+    border-left: 2px solid #333; /* Ajusta el grosor y el color de la línea izquierda */
+    padding-left: 10px; /* Ajusta el espacio entre la línea y el contenido de la cita */
+  }

@@ -141,3 +141,10 @@ body {
     object-fit: cover;
     border-radius: 50%;
   }
+
+  video{
+    width: 400px;
+  }
+  .mapa{
+    text-align: center;
+  }

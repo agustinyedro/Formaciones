@@ -170,8 +170,8 @@ body {
   @media (max-width: 767px) {
     /* Ajusta el valor según la anchura en la que deseas cambiar el diseño para pantallas pequeñas */
     .what {
-      bottom: 20px;
-      right: 20px;
+      bottom: 6%;
+      right: 6%
     }
     video{
       width: 250px;

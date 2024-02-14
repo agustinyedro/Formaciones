@@ -143,7 +143,7 @@ body {
   }
 
   video{
-    width: 250px;
+    width: 200px;
   }
   .video{
     text-align: center;
@@ -166,4 +166,15 @@ body {
     background-color: #00e676;
     border-radius: 50%;
     padding: 18px 20px;
+  }
+  @media (max-width: 767px) {
+    /* Ajusta el valor según la anchura en la que deseas cambiar el diseño para pantallas pequeñas */
+    .what {
+      bottom: 2px;
+      right: 2px;
+    }
+    video{
+      width: 150px;
+    }
+
   }

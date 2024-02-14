@@ -114,9 +114,30 @@ body {
     padding: 10px 20px;
     line-height: 1.5;
   }
+
   
   blockquote {
     font-size: 12px;
     border-left: 2px solid #333; /* Ajusta el grosor y el color de la línea izquierda */
     padding-left: 10px; /* Ajusta el espacio entre la línea y el contenido de la cita */
+  }
+  .fotos{
+    display: flex;
+    justify-content: space-around;
+  }
+  .foto1, .foto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .text-foto{
+    font-size: 12px;
+    text-align: center;
+  }
+  .fotoPerfil{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
   }

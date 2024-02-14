@@ -143,13 +143,16 @@ body {
   }
 
   video{
-    width: 400px;
+    width: 300px;
+  }
+  .video{
+    text-align: center;
   }
   .mapa{
     text-align: center;
   }
   .what{
-    position: absolute;
+    position: fixed;
     top: 85%;
     right: 5%;
     width: 50px;
